@@ -7,7 +7,7 @@ class MailSender {
       host: nodemailerConfig.mailHost,
       port: nodemailerConfig.mailPort,
       auth: {
-        user: nodemailerConfig.mailUser,
+        user: nodemailerConfig.mailAddress,
         pass: nodemailerConfig.mailPassword,
       },
     });

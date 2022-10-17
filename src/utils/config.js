@@ -5,7 +5,7 @@ const config = {
   nodemailerConfig: {
     mailHost: process.env.MAIL_HOST,
     mailPort: process.env.MAIL_PORT,
-    mailUser: process.env.MAIL_USER,
+    mailAddress: process.env.MAIL_ADDRESS,
     mailPassword: process.env.MAIL_PASSWORD,
   },
 };
